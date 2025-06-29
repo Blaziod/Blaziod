@@ -14,9 +14,8 @@ I'm a passionate frontend developer with a BSc in Computer Science, currently tr
 
 - **Programming Languages:** Python, C, JavaScript
 - **Web Technologies:** HTML, CSS, React, Vite, React Native
-- **Tools & Frameworks:** FastAPI, Flask, TensorFlow, Keras, Langchain
+- **Tools & Frameworks:** FastAPI, Flask, Render, Vercel
 - **Databases:** PostgreSQL, SQLite, Redis
-- **Other Skills:** Git, Bash
 
 ## Projects
 
@@ -47,10 +46,6 @@ Here are some of the projects I've worked on:
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
@@ -59,14 +54,25 @@ Here are some of the projects I've worked on:
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="fastapi logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="android studio logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" height="40" alt="vite logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/render/render-original.svg" height="40" alt="render logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" height="40" alt="vercel logo"  />
 </div>
 
 ## GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Blaziod&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="200" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Blaziod&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&theme=dracula&order=2" height="200" alt="languages graph"  />
+<div align="center" style="display: block; width: 100%; text-align: center;">
+
+  <img src="https://github-readme-stats.vercel.app/api?username=Blaziod&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="200" alt="stats graph" style="width: 100%; height: auto; margin-bottom: 16px;"  />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Blaziod&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&theme=dracula&order=2" height="200" alt="languages graph" style="width: 100%; height: auto;"  />
+  
 </div>
 
 ## Let's Connect!
