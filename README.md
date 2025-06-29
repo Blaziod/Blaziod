@@ -8,7 +8,7 @@
 I'm a passionate frontend developer with a BSc in Computer Science, currently transitioning into the field of Cybersecurity.
 
 -  I'm currently learning about **Cybersecurity** and its practical applications.
--  I'm a student at **Saarland University**, applying for the **MSc in Cybersecurity** program.
+-  I'm aiming to be a student at **Saarland University**, for the **MSc in Cybersecurity** program.
 
 ## Skills
 
