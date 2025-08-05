@@ -67,11 +67,12 @@ Here are some of the projects I've worked on:
 
 <div align="center" style="display: block; width: 100%; text-align: center;">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=Blaziod&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="200" alt="stats graph" style="width: 100%; height: auto; margin-bottom: 16px;"  />
+  <img src="./stats.svg" height="200" alt="stats graph" style="width: 100%; height: auto; margin-bottom: 16px;" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Blaziod&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&theme=dracula&order=2" height="200" alt="languages graph" style="width: 100%; height: auto;"  />
+  <img src="./top-langs.svg" height="200" alt="languages graph" style="width: 100%; height: auto;" />
   
 </div>
+
 
 ## Let's Connect!
 
