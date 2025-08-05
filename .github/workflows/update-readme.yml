@@ -1,8 +1,17 @@
 name: Update GitHub Stats
+
+# Triggers: on push to main, every 12 hours, or manual run
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: "0 */12 * * *" # every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
+
+# Give the job permission to push to the repo
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -10,21 +19,49 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Generate Stats
+      - name: Generate stats SVGs (use GH_STATS_TOKEN)
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
         run: |
-          curl -H "Authorization: token ${{ secrets.GH_STATS_TOKEN }}" \
+          # fail early if token missing
+          [ -n "$GH_STATS_TOKEN" ] || { echo "GH_STATS_TOKEN not set"; exit 1; }
+
+          curl -s -H "Authorization: token $GH_STATS_TOKEN" \
             "https://github-readme-stats.vercel.app/api?username=Blaziod&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" \
             --output stats.svg
 
-          curl -H "Authorization: token ${{ secrets.GH_STATS_TOKEN }}" \
+          curl -s -H "Authorization: token $GH_STATS_TOKEN" \
             "https://github-readme-stats.vercel.app/api/top-langs?username=Blaziod&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&order=2" \
             --output top-langs.svg
 
-      - name: Commit and push changes
+      - name: Show generated files info
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          ls -l stats.svg top-langs.svg || true
+          echo "stats.svg size: $(stat -c%s stats.svg || echo 0)"
+          echo "top-langs.svg size: $(stat -c%s top-langs.svg || echo 0)"
+
+      - name: Configure git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Pull latest and commit only if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Ensure local branch up to date to avoid push conflicts
+          git pull --rebase origin main || true
+
           git add stats.svg top-langs.svg
-          git commit -m "Update GitHub stats" || echo "No changes to commit"
-          git push
+
+          # commit only if there are changes
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: Update GitHub stats"
+            git push origin HEAD:main
+            echo "Pushed updated SVGs."
+          else
+            echo "No changes to commit."
+          fi
