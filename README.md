@@ -71,19 +71,12 @@ Here are some of the projects I've worked on:
   
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Blaziod&theme=dracula" alt="Repos per Language" height="180" style="width: 100%; height: auto; margin-bottom: 16px;" />
   
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Blaziod&theme=dracula" alt="Most Commit Language" height="180" style="width: 100%; height: auto; margin-bottom: 16px;" />
+ 
   
+![Repos per Language]([https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Blaziod&theme=dracula](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Blaziod&theme=dracula))
 ![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Blaziod&theme=dracula)
 
-![Total Stars](https://github-profile-summary-cards.vercel.app/api/cards/total-stars?username=Blaziod&theme=dracula)
 
-![Commit Activity](https://github-profile-summary-cards.vercel.app/api/cards/commit-activity?username=Blaziod&theme=dracula)
-
-![Contributions](https://github-profile-summary-cards.vercel.app/api/cards/contribs?username=Blaziod&theme=dracula)
-
-![Pull Requests](https://github-profile-summary-cards.vercel.app/api/cards/prs?username=Blaziod&theme=dracula)
-
-![Issues](https://github-profile-summary-cards.vercel.app/api/cards/issues?username=Blaziod&theme=dracula)
 
 
 </div>
