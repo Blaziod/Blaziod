@@ -65,13 +65,16 @@ Here are some of the projects I've worked on:
 
 ## GitHub Stats
 
-<div align="center" style="display: block; width: 100%; text-align: center;">
+<div align="center" style="width: 100%; text-align: center;">
 
-  <img src="https://streak-stats.demolab.com/?user=Blaziod&theme=dracula" alt="GitHub streak stats" height="200" style="width: 100%; height: auto; margin-bottom: 16px;" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Blaziod&theme=dracula" alt="Profile Details" height="200" style="width: 100%; height: auto; margin-bottom: 16px;" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Blaziod&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&order=2" height="200" alt="languages graph" style="width: 100%; height: auto;" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Blaziod&theme=dracula" alt="Repos per Language" height="200" style="width: 100%; height: auto; margin-bottom: 16px;" />
   
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Blaziod&theme=dracula" alt="Most Commit Language" height="200" style="width: 100%; height: auto;" />
+
 </div>
+
 
 
 
