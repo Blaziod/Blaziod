@@ -67,13 +67,24 @@ Here are some of the projects I've worked on:
 
 <div align="center" style="width: 100%; text-align: center;">
 
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Blaziod&theme=dracula" alt="Profile Details" height="200" style="width: 100%; height: auto; margin-bottom: 16px;" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Blaziod&theme=dracula" alt="Profile Details" height="180" style="width: 100%; height: auto; margin-bottom: 16px;" />
   
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Blaziod&theme=dracula" alt="Repos per Language" height="200" style="width: 100%; height: auto; margin-bottom: 16px;" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Blaziod&theme=dracula" alt="Repos per Language" height="180" style="width: 100%; height: auto; margin-bottom: 16px;" />
   
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Blaziod&theme=dracula" alt="Most Commit Language" height="200" style="width: 100%; height: auto;" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Blaziod&theme=dracula" alt="Most Commit Language" height="180" style="width: 100%; height: auto; margin-bottom: 16px;" />
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/total-stars?username=Blaziod&theme=dracula" alt="Total Stars" height="180" style="width: 100%; height: auto; margin-bottom: 16px;" />
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/commit-activity?username=Blaziod&theme=dracula" alt="Commit Activity" height="180" style="width: 100%; height: auto; margin-bottom: 16px;" />
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/contribs?username=Blaziod&theme=dracula" alt="Contributions" height="180" style="width: 100%; height: auto; margin-bottom: 16px;" />
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/prs?username=Blaziod&theme=dracula" alt="Pull Requests" height="180" style="width: 100%; height: auto; margin-bottom: 16px;" />
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/issues?username=Blaziod&theme=dracula" alt="Issues" height="180" style="width: 100%; height: auto;" />
 
 </div>
+
 
 
 
